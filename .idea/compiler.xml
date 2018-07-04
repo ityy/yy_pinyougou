@@ -2,41 +2,191 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for pinyougou-seckill-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-seckill-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-seckill-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-seckill-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-pay-interface" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-pay-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-pay-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-pay-interface" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-pay-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-pay-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-pay-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-pay-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-order-interface" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-order-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-order-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-order-interface" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-order-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-order-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-order-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-order-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-cart-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-cart-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-cart-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-cart-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-cart-web" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-cart-web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-cart-web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-cart-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-user-web" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-user-web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-user-web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-user-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-cart-interface" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-cart-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-cart-interface/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pinyougou-cart-interface" />
-        <module name="pinyougou-cart-service" />
-        <module name="pinyougou-cart-web" />
-        <module name="pinyougou-common" />
-        <module name="pinyougou-content-interface" />
-        <module name="pinyougou-content-service" />
-        <module name="pinyougou-dao" />
-        <module name="pinyougou-manager-web" />
-        <module name="pinyougou-order-interface" />
-        <module name="pinyougou-order-service" />
-        <module name="pinyougou-page-interface" />
-        <module name="pinyougou-page-service" />
-        <module name="pinyougou-page-web" />
-        <module name="pinyougou-pay-interface" />
-        <module name="pinyougou-pay-service" />
-        <module name="pinyougou-pojo" />
-        <module name="pinyougou-portal-web" />
-        <module name="pinyougou-search-interface" />
-        <module name="pinyougou-search-service" />
-        <module name="pinyougou-search-web" />
-        <module name="pinyougou-seckill-interface" />
-        <module name="pinyougou-seckill-service" />
-        <module name="pinyougou-seckill-web" />
-        <module name="pinyougou-sellergoods-interface" />
-        <module name="pinyougou-sellergoods-service" />
-        <module name="pinyougou-shop-web" />
-        <module name="pinyougou-solr-util" />
-        <module name="pinyougou-task-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-user-interface" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-user-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-user-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="pinyougou-user-interface" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-user-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-user-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-user-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="pinyougou-user-service" />
-        <module name="pinyougou-user-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-page-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-page-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-page-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-page-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-page-web" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-page-web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-page-web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-page-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-search-web" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-search-web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-search-web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-search-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-page-interface" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-page-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-page-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-page-interface" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-search-interface" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-search-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-search-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-search-interface" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-search-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-search-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-search-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-search-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-portal-web" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-portal-web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-portal-web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-portal-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-solr-util" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-solr-util/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-solr-util/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-solr-util" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-content-interface" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-content-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-content-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-content-interface" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-content-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-content-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-content-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-content-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-manager-web" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-manager-web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-manager-web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-manager-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-shop-web" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-shop-web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-shop-web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-shop-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-sellergoods-interface" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-sellergoods-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-sellergoods-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-sellergoods-interface" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-sellergoods-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-sellergoods-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-sellergoods-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-sellergoods-service" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-dao" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-dao/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-dao/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-dao" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-common" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-common/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-common/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-common" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-pojo" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-pojo/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-pojo/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-pojo" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-seckill-web" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-seckill-web/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-seckill-web/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-seckill-web" />
+      </profile>
+      <profile name="Annotation profile for pinyougou-task-service" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-task-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-task-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-task-service" />
+      </profile>
+      <profile name="Annotation profile for yy_pinyougou" enabled="true">
+        <sourceOutputDir name="../../../../../../temp/maven_target/pinyougou-seckill-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../temp/maven_target/pinyougou-seckill-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-seckill-interface" />
       </profile>
     </annotationProcessing>
   </component>

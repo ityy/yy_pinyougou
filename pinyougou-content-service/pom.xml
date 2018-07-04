@@ -108,6 +108,15 @@
 					<path>/</path>
 				</configuration>
 	  	  </plugin>
+		  <plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-install-plugin</artifactId>
+			  <version>2.4</version>
+			  <configuration>
+				  <!--install 时忽略此model-->
+				  <skip>true</skip>
+			  </configuration>
+		  </plugin>
 	  </plugins>  
     </build>
 </project>
