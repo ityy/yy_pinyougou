@@ -1,6 +1,6 @@
 // 定义控制器:
 app.controller("brandController",function($scope,$controller,$http,brandService){
-	// AngularJS中的继承:伪继承
+	// AngularJS中的继承:伪继承 $controller也是angular提供的一个服务，可以实现伪继承，实际上就是与BaseController共享$scope
 	$controller('baseController',{$scope:$scope});
 	
 	// 查询所有的品牌列表的方法:
