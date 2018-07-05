@@ -94,6 +94,7 @@ app.controller('contentController' ,function($scope,$controller ,uploadService,c
 			$scope.contentCategoryList = response;
 		});
 	}
-	
+
+	//定义一个数组 用于将后台的status显示为文本信息
 	$scope.status = ["无效","有效"];
 });	

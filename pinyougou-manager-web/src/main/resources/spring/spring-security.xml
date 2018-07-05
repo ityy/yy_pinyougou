@@ -5,7 +5,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
-	
+
+	<!--放行的资源-->
 	<http pattern="/login.html" security="none"/>
 	<http pattern="/css/**" security="none"/>
 	<http pattern="/img/**" security="none"/>
@@ -17,7 +18,7 @@
 		<!-- 
 			配置SpringSecurity的拦截路径（拦截规则） 
 			* pattern:配置拦截规则。   /* 代表的是根路径下的所有资源（不包含子路径） /**代表的是根路径下所有的资源（包含子路径）
-			* access:设置角色  角色命名 ROLE_角色名称  如：  ROLE_USER  
+			* access:设置角色  角色命名 ROLE_角色名称  如：  ROLE_USER  分角色管理
 		-->
 		<intercept-url pattern="/**" access="ROLE_ADMIN"/>
 		

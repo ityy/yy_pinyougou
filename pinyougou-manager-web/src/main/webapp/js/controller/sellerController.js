@@ -87,4 +87,7 @@ app.controller('sellerController' ,function($scope,$controller   ,sellerService)
 			}
 		});
 	}
+
+    //定义一个数组 用于将后台的status显示为文本信息
+    $scope.status = ["未审核","审核通过"];
 });	
