@@ -35,7 +35,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 		 */
 		// 去数据库进行查询:
 		TbSeller seller = sellerService.findOne(username);
+		//商家是否存在
 		if(seller != null){
+			//商家是否通过审核
 			if(seller.getStatus().equals("1")){
 				return new User(username,seller.getPassword(),grantAuths );
 			}else{

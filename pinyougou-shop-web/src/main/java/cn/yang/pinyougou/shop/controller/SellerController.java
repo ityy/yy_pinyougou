@@ -47,10 +47,11 @@ public class SellerController {
 	 * @param seller
 	 * @return
 	 */
+
 	@RequestMapping("/add")
 	public Result add(@RequestBody TbSeller seller){
 		try {
-			
+			//商家申请入驻的密码要使用BCrypt算法进行加密存储，修改SellerController.java的add方法
 			BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 			seller.setPassword(passwordEncoder.encode(seller.getPassword()));
 			
