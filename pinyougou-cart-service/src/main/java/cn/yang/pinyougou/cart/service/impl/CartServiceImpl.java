@@ -18,7 +18,8 @@ public class CartServiceImpl implements CartService {
 
 	@Autowired
 	private TbItemMapper itemMapper;
-	
+
+
 	@Override
 	public List<Cart> addGoodsToCartList(List<Cart> cartList, Long itemId, Integer num) {
 		
@@ -99,7 +100,7 @@ public class CartServiceImpl implements CartService {
 	 * @param itemId
 	 * @return
 	 */
-	public TbOrderItem searchOrderItemByItemId(List<TbOrderItem> orderItemList,Long itemId){
+	private TbOrderItem searchOrderItemByItemId(List<TbOrderItem> orderItemList,Long itemId){
 		for(TbOrderItem orderItem:orderItemList){
 			if(orderItem.getItemId().longValue()==itemId.longValue()){
 				return orderItem;

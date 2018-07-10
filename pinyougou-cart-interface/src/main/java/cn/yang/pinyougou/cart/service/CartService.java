@@ -7,7 +7,6 @@ import cn.yang.pinyougou.pojo.group.Cart;
 /**
  * 购物车服务接口
  * @author Administrator
- *
  */
 public interface CartService {
 
@@ -33,7 +32,7 @@ public interface CartService {
 	 * @param cartList
 	 */
 	public void saveCartListToRedis(String username,List<Cart> cartList);
-	
+
 	/**
 	 * 合并购物车
 	 * @param cartList1
@@ -41,5 +40,6 @@ public interface CartService {
 	 * @return
 	 */
 	public List<Cart> mergeCartList(List<Cart> cartList1,List<Cart> cartList2);
-	 
+
+
 }
